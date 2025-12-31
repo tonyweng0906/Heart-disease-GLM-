@@ -1,0 +1,5 @@
+"0","dup<-sum(duplicated(dat))"
+"0","cat(""Duplicated rows:"",dup)"
+"1","Duplicated rows:"
+"1"," "
+"1","0"

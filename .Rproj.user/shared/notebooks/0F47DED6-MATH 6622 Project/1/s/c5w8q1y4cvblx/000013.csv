@@ -1,0 +1,12 @@
+"0","# Calculate OR and confidence interval"
+"0","OR <- exp(coef(best_logit_model))"
+"0","OR_CI <- exp(confint(best_logit_model))"
+"2","Waiting for profiling to be done...
+"
+"0","# Merge results"
+"0","results <- data.frame("
+"0","  OR = OR,"
+"0","  Lower_CI = OR_CI[, 1],"
+"0","  Upper_CI = OR_CI[, 2]"
+"0",")"
+"0","print(results, n = 11)"

@@ -1,0 +1,4 @@
+"0","cor_matrix <- cor(dat[num_vars])"
+"0",""
+"0","par(mfrow=c(1,2))"
+"0","corrplot(cor_matrix, method = ""circle"", type = ""upper"", tl.cex = 0.8)"

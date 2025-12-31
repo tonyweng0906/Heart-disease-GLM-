@@ -1,0 +1,1 @@
+"0","kable(sapply(dat, function(x) sum(is.na(x))),caption = ""Variable Missingnes Check"")"

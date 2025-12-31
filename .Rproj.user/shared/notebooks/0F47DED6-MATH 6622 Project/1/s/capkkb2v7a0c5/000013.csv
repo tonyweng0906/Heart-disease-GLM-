@@ -1,0 +1,8 @@
+"0","# Bar plot for categorical variables"
+"0","bar1<-ggplot(dat, aes(x = Sex, fill = factor(HeartDisease))) + geom_bar() + labs(title = ""Heart Disease by Sex"", fill = ""Heart Disease"")"
+"0","bar2<-ggplot(dat, aes(x = ChestPainType, fill = factor(HeartDisease))) + geom_bar() + labs(title = ""Heart Disease by Chest Pain Type"", fill = ""Heart Disease"")"
+"0","bar3<-ggplot(dat, aes(x = ExerciseAngina, fill = factor(HeartDisease))) + geom_bar() + labs(title = ""Heart Disease by Exercise Angina"", fill = ""Heart Disease"")"
+"0","bar4<-ggplot(dat, aes(x = FastingBS, fill = factor(HeartDisease))) + geom_bar() + labs(title = ""Heart Disease by FastingBS"", fill = ""Heart Disease"")"
+"0","bar5<-ggplot(dat, aes(x = RestingECG, fill = factor(HeartDisease))) + geom_bar() + labs(title = ""Heart Disease by RestingECG"", fill = ""Heart Disease"")"
+"0","bar6<-ggplot(dat, aes(x = ST_Slope, fill = factor(HeartDisease))) + geom_bar() + labs(title = ""Heart Disease by ST_Slope"", fill = ""Heart Disease"")"
+"0","ggarrange(bar1,bar2,bar3,bar4,bar5,bar6, ncol = 2, nrow = 3)"

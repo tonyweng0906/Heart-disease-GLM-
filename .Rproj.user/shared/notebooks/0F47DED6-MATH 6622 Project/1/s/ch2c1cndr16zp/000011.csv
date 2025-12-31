@@ -1,0 +1,2 @@
+"0","# Summary of numeric variables"
+"0","kable(summary(dat[, c(""Age"", ""RestingBP"",""Cholesterol"", ""MaxHR"", ""Oldpeak"")]))"
