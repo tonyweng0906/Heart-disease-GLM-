@@ -1,4 +1,3 @@
-用英文
 Heart Disease Prediction - Statistical Analysis Project
 📊 Project Overview
 This project presents a comprehensive statistical analysis of heart disease prediction using clinical data from Kaggle. The study employs Generalized Linear Models (GLMs) with logit, probit, and complementary log-log links to identify key risk factors and build predictive models for heart disease probability.
